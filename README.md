@@ -17,42 +17,11 @@ Here is the list of feature
 
 
 
-# Future Work 
-
-1 To implement paging on server side 
-
-2 To implement Search on client side 
-
-
-3 To use Google charts to make it more informative and Attractive
-
-
-#  routes
-
-1 /  ( home route )
-
-
-2 /file/create
-
-
-3 /file/show?id=id
-
-
-4 /file/search?id
 
 
 
 
-# LOcal setup 
-
-# 1 Clone this Repo 
-# 2 cd product
-# 3 run npm install
-# 4 run node index.js
-
-# go to http://localhost:9000/
 
 
 
 
-# You are done Happy Coding
