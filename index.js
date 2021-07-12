@@ -1,5 +1,5 @@
 const express=require('express');
-const port=process.env.PORT || 8000;
+
 // creating express app
 const app=express();
 const cors = require("cors");
