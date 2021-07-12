@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 
 
 
-mongoose.connect('mongodb://localhost:27017/developmentDb', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://nish6217:nish6217@cluster0.30ubr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
 const db=mongoose.connection;
 

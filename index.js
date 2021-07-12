@@ -1,7 +1,10 @@
 const express=require('express');
-const port=8000;
+const port=process.env.PORT || 8000;
 // creating express app
 const app=express();
+const cors = require("cors");
+
+const port=process.env.PORT || 8000;
 
 //  requiring Database
 const db=require('./config/mongoose');
@@ -20,6 +23,8 @@ app.use('/uploads',express.static(__dirname +'/uploads'));
 
 app.set('view engine','ejs');
 app.set('views','./view');
+
+app.use(cors());
 // setting our routes 
 app.use('/',require('./route'));
 
